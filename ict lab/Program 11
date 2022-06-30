@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+int main()
+{
+	char a ;
+	scanf("%c",&a);
+	int b = a;
+	
+	if(b >= 48 && b<= 57)   
+	{
+		printf("Invalid");
+	}
+	else{
+		if(a == 'a')
+		{
+				printf("Yeah bro! it is vowel ");
+		}
+		else if(a == 'e')
+		{
+				printf("Yeah bro! it is vowel ");
+		}
+		else if(a == 'i')
+		{
+				printf("Yeah bro! it is vowel ");
+		}
+		else if(a == 'o')
+		{
+				printf("Yeah bro! it is vowel ");
+		}
+		else if(a == 'u')
+		{
+				printf("Yeah bro! it is vowel ");
+		}
+		else{
+				printf("Oops bro! it is not a  vowel ");
+		}
+	}
+	
+	
+}
